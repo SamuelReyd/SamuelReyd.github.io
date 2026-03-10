@@ -8,8 +8,8 @@
 	<head>
 		<title>Home - Samuel Reyd</title>
 		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-		<meta name="description" content="" />
-		<meta name="keywords" content="" />
+		<meta name="description" content="Samuel Reyd — PhD candidate at Télécom Paris working on causality and explainability for complex AI systems." />
+		<meta name="keywords" content="Samuel Reyd, causality, actual causation, explainability, AI, machine learning, complex systems, Télécom Paris" />
 		<script src="js/jquery.min.js"></script>
 		<script src="js/skel.min.js"></script>
 		<script src="js/skel-layers.min.js"></script>
@@ -19,6 +19,82 @@
 			<link rel="stylesheet" href="css/style.css" />
 			<link rel="stylesheet" href="css/style-xlarge.css" />
 		</noscript>
+		<style>
+			.subtitle-main {
+				font-size: 1.15em;
+				font-weight: 600;
+				line-height: 1.5em;
+				margin-bottom: 0.4em;
+				color: #444;
+			}
+
+			.subtitle-secondary {
+				font-size: 1em;
+				line-height: 1.7em;
+				color: #666;
+				/* margin-bottom: 0; */
+			}
+
+			.topic-block {
+				margin-bottom: 1.5em;
+			}
+
+			.selected-work {
+				margin-top: 1.2em;
+			}
+
+			.work-item {
+				display: flex;
+				align-items: flex-start;
+				gap: 1em;
+				padding: 1em 0;
+				border-bottom: 1px solid #e6e6e6;
+			}
+
+			.work-item:last-child {
+				border-bottom: none;
+			}
+
+			.work-icon {
+				font-size: 1.4em;
+				line-height: 1;
+				width: 1.6em;
+				text-align: center;
+				color: #666;
+				flex-shrink: 0;
+				margin-top: 0.15em;
+			}
+
+			.work-content h3 {
+				margin: 0 0 0.2em 0;
+				font-size: 1.05em;
+			}
+
+			.work-meta {
+				font-size: 0.92em;
+				color: #777;
+				margin-bottom: 0.45em;
+			}
+
+			.work-content p {
+				margin-bottom: 0.45em;
+			}
+
+			.work-links {
+				font-size: 0.92em;
+				color: #666;
+			}
+
+			.work-links a {
+				text-decoration: none;
+				border-bottom: 1px dotted #aaa;
+				margin-right: 0.9em;
+			}
+
+			.work-links a:hover {
+				border-bottom-style: solid;
+			}
+		</style>
 	</head>
 	<body id="top">
 
@@ -32,69 +108,165 @@
 					</ul>
 				</nav>
 			</header>
+
 		<!-- Main -->
 			<section id="main" class="wrapper style1">
 				<header class="major">
 					<h2>Samuel Reyd</h2>
-					<p>PhD student at Télécom Paris</p>
+					<p>PhD candidate at Télécom Paris</p>
 				</header>
+
 				<div class="container">
 					<div class="row">
 						<div class="4u">
-							<!-- <section>
-									<a href="#" class="image fit"><img src="images/photo.png" alt="" /></a>
-							</section> -->
+							<!-- Uncomment when you have a professional photo or illustration -->
+							<!--
+							<section>
+								<a href="#" class="image fit"><img src="images/profile_or_figure.png" alt="Portrait or research illustration" /></a>
+							</section>
+							-->
+
 							<hr />
+
 							<section>
 								<h3>Contact</h3>
-								<p>
-									[firstname].[lastname]@telecom-paris.fr
-								</p>
+								<p>[firstname].[lastname]@telecom-paris.fr</p>
+
 								<h3>Institutions</h3>
-								<p>
-									<ul>
-										<li>Institute: <a target="_blank" rel="noopener noreferrer" href="https://www.ip-paris.fr/en">IP Paris</a></li>
-										<li>University: <a target="_blank" rel="noopener noreferrer" href="https://telecom-paris.fr/en/home">Télécom Paris</a></li>
-										<li>Department: <a target="_blank" rel="noopener noreferrer" href="https://www.telecom-paris.fr/en/school/departments/computer-science-networks">INFRES</a></li>
-										<li>Laboratory: <a target="_blank" rel="noopener noreferrer" href="https://www.telecom-paris.fr/en/research/labs/information-processing-ltci">LCTI</a></li>
-										<li>Team: <a target="_blank" rel="noopener noreferrer" href="https://dig.telecom-paris.fr/blog/">DIG</a></li>
-										<li>Team: <a target="_blank" rel="noopener noreferrer" href="https://aces.telecom-paris.fr/">ACES</a></li>
-									</ul>
-								</p>
+								<ul class="clean-list">
+									<li>Institute: <a target="_blank" rel="noopener noreferrer" href="https://www.ip-paris.fr/en">IP Paris</a></li>
+									<li>University: <a target="_blank" rel="noopener noreferrer" href="https://telecom-paris.fr/en/home">Télécom Paris</a></li>
+									<li>Department: <a target="_blank" rel="noopener noreferrer" href="https://www.telecom-paris.fr/en/school/departments/computer-science-networks">INFRES</a></li>
+									<li>Laboratory: <a target="_blank" rel="noopener noreferrer" href="https://www.telecom-paris.fr/en/research/labs/information-processing-ltci">LTCI</a></li>
+									<li>Team: <a target="_blank" rel="noopener noreferrer" href="https://dig.telecom-paris.fr/blog/">DIG</a></li>
+									<li>Team: <a target="_blank" rel="noopener noreferrer" href="https://aces.telecom-paris.fr/">ACES</a></li>
+								</ul>
+
 								<h3>Projects</h3>
 								<p>
-									See my <a target="_blank" rel="noopener noreferrer" href="https://github.com/SamuelReyd">GitHub repo</a>
+									See my <a target="_blank" rel="noopener noreferrer" href="https://github.com/SamuelReyd">GitHub profile</a>
 								</p>
 							</section>
 						</div>
+
 						<div class="8u skel-cell-important">
 							<section>
-								<h2>Short presentation</h2>
-								<p>
-									I am a PhD student in Télécom Paris.
-									My PhD is co-supervised by <a target="_blank" rel="noopener noreferrer" href="https://adadiaconescu.there-you-are.com/index.html">Ada Diaconescu</a> and <a target="_blank" rel="noopener noreferrer" href="https://perso.telecom-paristech.fr/jld/">Jean-Louis Dessalles</a>. 
-									My research interests lie in machine learning, complex adaptive systems, explanability and causality.
+								<h2>Research profile</h2>
+								<p class="subtitle-main">
+									I develop causal methods to understand and explain the behavior of complex AI systems.
 								</p>
-							</section>
-							<section>
-								<h2>My PhD</h2>
-								<p>
-									I currently work on explainability techniques for complex open cyber-physical systems. 
-									This includes methods to generate causal explanations, to identify actual causes, or to produce relevant explanations.
-									You can find a summary <a target="_blank" rel="noopener noreferrer" href="https://theses.fr/s368781">here</a> 
+								<p class="subtitle-secondary">
+									My current work focuses on actual causation, causal explanations, and relevance in explanations, 
+									with applications to complex adaptive systems.
+									My broader goal is to contribute to stronger causal foundations for understanding modern AI systems.
 								</p>
 							</section>
 
 							<section>
-								<h2>Research interests</h2>
+								<h2>Short bio</h2>
 								<p>
-									While my PhD mainly focuses on explainability, I am interested in most subjects that relates to artificial intelligence, complex adaptive systems, and causality. 
-									I previously worked on deep learning for natural language processing and knowledge graphs.
-									I also have a strong interest for the societal impacts of modern AI such as LLMs or recommendation systems.
+									I am a PhD candidate at Télécom Paris, 
+									under the supervision of 
+									<a target="_blank" rel="noopener noreferrer" href="https://adadiaconescu.there-you-are.com/index.html">Ada Diaconescu</a> 
+									and <a target="_blank" rel="noopener noreferrer" href="https://perso.telecom-paristech.fr/jld/">Jean-Louis Dessalles</a>, 
+									working on causality and explainability in complex AI systems. 
+									My research focuses on identifying actual causes and generating meaningful explanations in adaptive systems. 
+									I am affiliated with the 
+									<a target="_blank" rel="noopener noreferrer" href="https://dig.telecom-paris.fr/">DIG</a> team, 
+									which works on artificial intelligence, machine learning, and language models, 
+									as well as with the <a target="_blank" rel="noopener noreferrer" href="https://aces.telecom-paris.fr/">ACES</a> team.
 								</p>
+								<p>
+									Before starting my PhD, I studied computer science and data science at Télécom Paris and completed a research master's degree at Polytechnique Montréal, where I worked on knowledge graphs and machine translation with pretrained language models.
+								</p>
+							</section>
+
+							<section>
+								<h2>Highlighted work</h2>
+								<div class="selected-work">
+
+									<div class="work-item">
+										<div class="work-icon">🧩</div>
+										<div class="work-content">
+											<h3>
+												<a target="_blank" rel="noopener noreferrer" href="https://ieeexplore.ieee.org/abstract/document/11217769">
+													Relevant Causes for Causal Explanations in Complex Adaptive Systems
+												</a>
+											</h3>
+											<div class="work-meta">ACSOS 2025</div>
+											<p>
+												A framework for identifying causally relevant events in complex adaptive systems, with a focus on explanation quality and interpretability.
+											</p>
+											<div class="work-links">
+												<a target="_blank" rel="noopener noreferrer" href="https://ieeexplore.ieee.org/abstract/document/11217769">paper</a>
+												<a target="_blank" rel="noopener noreferrer" href="https://github.com/SamuelReyd/RelevantCauseCAS">code</a>
+											</div>
+										</div>
+									</div>
+
+									<div class="work-item">
+										<div class="work-icon">🌐</div>
+										<div class="work-content">
+											<h3>
+												<a target="_blank" rel="noopener noreferrer" href="PUT_ISWC_2023_LINK_HERE">
+													Machine Translation using Knowledge Graphs and Pretrained Language Models
+												</a>
+											</h3>
+											<div class="work-meta">ISWC 2023</div>
+											<p>
+												A contribution at the intersection of knowledge graphs, natural language processing, and pretrained language models.
+											</p>
+											<div class="work-links">
+												<a target="_blank" rel="noopener noreferrer" href="https://link.springer.com/chapter/10.1007/978-3-031-47240-4_26">paper</a>
+												<a target="_blank" rel="noopener noreferrer" href="https://github.com/Lama-West/SPARQL_Query_Generation_PLM_General_ISWC23">code</a>
+											</div>
+										</div>
+									</div>
+
+									<div class="work-item">
+										<div class="work-icon">⚙️</div>
+										<div class="work-content">
+											<h3>
+												<a target="_blank" rel="noopener noreferrer" href="https://pypi.org/project/actualcauses/">
+													actualcauses
+												</a>
+											</h3>
+											<div class="work-meta">PyPI package · associated preprint under review · NeurIPS workshop</div>
+											<p>
+												A Python package for actual cause identification, designed to support reproducible research on causal explanation and complex systems.
+											</p>
+											<div class="work-links">
+												<a target="_blank" rel="noopener noreferrer" href="https://pypi.org/project/actualcauses/">package</a>
+												<a target="_blank" rel="noopener noreferrer" href="https://arxiv.org/abs/2507.07857">preprint</a>
+												<a target="_blank" rel="noopener noreferrer" href="https://openreview.net/forum?id=HsM5QwMZsv">workshop</a>
+												<a target="_blank" rel="noopener noreferrer" href="https://github.com/SamuelReyd/SearchingForCauses">code</a>
+											</div>
+										</div>
+									</div>
+
+								</div>
+							</section>
+
+							<section>
+								<h2>Research directions</h2>
+
+								<div class="topic-block">
+									My PhD focuses on actual causation, causal explanation, and relevance-based explanation methods for complex adaptive and open cyber-physical systems.
+								</div>
+
+								<div class="topic-block">
+									More broadly, I am interested in explainable AI, causal inference, cognitive perspectives on explanation, machine learning, and neuro-symbolic approaches.
+									I also explored topics such as causal abstraction, causal emergence, and philosophical aspects of explanation during my PhD.
+								</div>
+
+								<div class="topic-block">
+									My long-term objective is to contribute to AI and machine learning research, especially on topics related to causality, interpretability, and foundation models.
+									I am particularly interested in bringing rigorous causal and explanatory methods closer to modern AI systems.
+								</div>
 							</section>
 						</div>
 					</div>
+
 					<hr class="major" />
 				</div>
 			</section>
